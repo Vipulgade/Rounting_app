@@ -5,12 +5,12 @@ import Services from './Services';
 import Contact from './Contact';
 import ServiceDetail from './ServiceDetail';
 import NotFound from './NotFound';
-import Navbar from './Navbar'
+
 function App() {
   return (
     <Router>
      
-      <Navbar />
+    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

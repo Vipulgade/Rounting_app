@@ -1,5 +1,6 @@
 import { useState } from 'react';
-
+import './Contact.css';
+import Navbar from './Navbar';
 function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [errors, setErrors] = useState({});
@@ -23,8 +24,10 @@ function Contact() {
   };
 
   return (
-    <div className="container mt-5">
-      
+    
+    <div className="container ">
+        <Navbar/>
+       <div className="form-container mt-5">
       <h2>Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
@@ -58,6 +61,7 @@ function Contact() {
         </div>
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
+    </div>
     </div>
   );
 }

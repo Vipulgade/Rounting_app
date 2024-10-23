@@ -1,0 +1,10 @@
+/* Contact.css */
+.form-container {
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(5, 5, 5, 1.1); /* Subtle shadow */
+    padding: 20px;
+    max-width: 600px; /* Limit width */
+    margin: auto; /* Center the box */
+  }
+  

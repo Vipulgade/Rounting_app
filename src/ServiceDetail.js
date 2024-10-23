@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import './styles.css';
-
+import './Contact.css'
 function ServiceDetail() {
   const { serviceName } = useParams();
   return (
