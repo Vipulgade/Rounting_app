@@ -1,0 +1,13 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  h2 {
+    color: #061e39;
+  }
+  .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    background-color: aqua;
+  }
+  
