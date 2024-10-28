@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return(
-<div className="container mt-2">
+<div className="container ">
 <h1>Welcome to Vip Research Labs</h1>
 <nav className="navbar navbar-expand-sm navbar-dark text-light mt-0 p-3  rounded " style={{ backgroundColor: '#86b6f0' }}>
   <a className="navbar-brand" href="/">Vip Tech</a>

@@ -3,9 +3,9 @@ import './Contact.css';
 import Navbar from './Navbar';
 function Services() {
   return (
-    <div className="container mt-5 ">
+    <div className="container mt-5  ">
         <Navbar/>
-      <div className='form-container mt-5'>
+      <div className='form-container mt-5 d-flex flex-wrap'>
       
       <h2 className="text-center">Services</h2>
       <nav className="nav justify-content-center">

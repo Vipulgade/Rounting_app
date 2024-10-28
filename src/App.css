@@ -1,12 +1,15 @@
 body {
   font-family: Arial, sans-serif;
 }
-
+*{
+ margin: 0px;
+}
 .nav-bar {
   background-color: #333;
   color: #fff;
   padding: 1em;
   text-align: center;
+ 
 }
 
 .nav-link {

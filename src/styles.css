@@ -9,5 +9,6 @@ body {
     font-size: 18px;
     padding: 10px;
     background-color: aqua;
+    flex-wrap:wrap;
   }
   
